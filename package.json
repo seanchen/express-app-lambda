@@ -1,0 +1,29 @@
+{
+  "name": "express-app-lambda",
+  "version": "1.0.0",
+  "description": "develop and deploy Express.js app on AWS lambda",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanchen/express-app-lambda.git"
+  },
+  "keywords": [
+    "Express.js",
+    "Lambda",
+    "AWS",
+    "Serverless"
+  ],
+  "author": "Sean Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanchen/express-app-lambda/issues"
+  },
+  "homepage": "https://github.com/seanchen/express-app-lambda#readme"
+}
