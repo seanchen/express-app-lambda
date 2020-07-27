@@ -17,4 +17,7 @@ module.exports = function(app) {
     app.get('/m3u', (req, res) => {
         res.sendFile(`${__dirname}/index.m3u`);
     });
+
+    // try the download endpoint
+    require('./download')(app);
 };
