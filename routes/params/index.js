@@ -28,6 +28,9 @@ module.exports = function(app) {
         try {
             if( fs.existsSync(filePath) ){
                 res.sendFile(filePath);
+            } else {
+                res.set('Content-Type', 'text/html');
+                res.status(200).send('Can not find ID:' + req.params.id);
             }
         } catch( err) {
             res.set('Content-Type', 'text/html');
