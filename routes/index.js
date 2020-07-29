@@ -20,4 +20,5 @@ module.exports = function(app) {
 
     // try the download endpoint
     require('./download')(app);
+    require('./params')(app);
 };
